@@ -65,7 +65,7 @@ pip install opencv-python numpy
 ### Run
 
 ``` bash
-python color_detect.py
+python main.py
 ```
 
 Press **`q`** to exit the live window.
@@ -87,13 +87,6 @@ Press **`q`** to exit the live window.
     Defined in the script under `# ======= HSV MASKS =======`.\
     Adjust if your camera or screen colors differ.
 
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-    color_detect.py       # Main script (this file)
-    color_correction_matrix.npy   # Saved calibration matrix (auto-generated)
-    README.md             # Documentation
 
 ------------------------------------------------------------------------
 
